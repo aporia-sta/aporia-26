@@ -1,6 +1,6 @@
-# Aporia 25 
+# Aporia 26
 
-Aporia 2025 (analytic) edition.
+Aporia 2026 (analytic) edition.
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
