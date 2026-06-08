@@ -78,9 +78,9 @@
 \renewcommand{\headrulewidth}{0pt} % remove line under header
 \fancyhead{}
 \fancyhead[RO]{\small\sc\itshape\leftmark}
-\fancyhead[LE]{\small\sc Aporia Vol. 25}
+\fancyhead[LE]{\small\sc Aporia Vol. 26}
 \fancyhead[RE]{\small\sc\itshape\leftmark}
-\fancyhead[LO]{\small\sc Aporia Vol. 25}
+\fancyhead[LO]{\small\sc Aporia Vol. 26}
 
 % Define chapterauthor
 \newcommand\chapterauthor[1]{\authortoc{#1}\printchapterauthor{#1}}
@@ -164,9 +164,8 @@ for tree={s sep=4mm}
 \thispagestyle{empty}
 \frontmatter
 \include{00-titlepage}
-\include{01-foreword}
-\include{02-letter-ed}
-\include{03-acknowledgements}
+\include{01-letter-ed}
+\include{02-acknowledgements}
 \tableofcontents
 \clearpage
 \thispagestyle{empty}
@@ -174,11 +173,11 @@ for tree={s sep=4mm}
 \mainmatter
 \include{papers/1}
 \include{papers/2}
-\include{papers/3}
-\include{papers/4}
+% \include{papers/3} // not there yet
+% \include{papers/4}
 
 \backmatter
-\include{90-contributors}
+\include{90-contributors} % TODO- remove this, what is backmatter n cleatpage...
 \clearpage
 \include{99-rear-cover}
 \end{document}
