@@ -6,10 +6,8 @@ SOURCES=images/\
 		COVER.pdf\
 		main.tex\
 		00-titlepage.tex\
-		01-foreword.tex\
-		02-letter-ed.tex\
-		03-acknowledgements.tex\
-		90-contributors.tex\
+		01-letter-ed.tex\
+		02-acknowledgements.tex\
 		99-rear-cover.tex
 target:
 	mkdir target
